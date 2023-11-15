@@ -7,3 +7,7 @@ mensaje = "Hola"
 print(mensaje.ljust(20, "*"))
 print(mensaje.rjust(20, "*"))
 print(mensaje.center(20, "*"))
+
+# Hola****************
+# ****************Hola
+# ********Hola********
