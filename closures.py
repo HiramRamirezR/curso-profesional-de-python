@@ -1,10 +1,12 @@
-def saludar():
+def saludar(nombre):
+    mensaje = f"Hola {nombre}"
 
     def mostrar_saludo():
-        print("Hola")
+        print(mensaje)
 
     return mostrar_saludo
 
-saludo = saludar()
+nombre = "Hiram"
+saludo = saludar(nombre)
 
-print(saludo)
+saludo()
