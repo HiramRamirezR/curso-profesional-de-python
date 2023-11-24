@@ -10,7 +10,16 @@ def suma(num_1, num_2):
     num_2 -> (int)
 
     Retorna la suma de los dos argumentos.
+
+    >>> suma(1, 2)
+    3
+
+    >>> suma(10, 5)
+    15
     """
     return num_1 + num_2
 
-print(suma.__doc__)
+# print(suma.__doc__)
+
+# Para testear la función:
+# python -m doctest documentar.py
